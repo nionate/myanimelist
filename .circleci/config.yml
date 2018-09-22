@@ -9,6 +9,10 @@ jobs:
       # specify the version you desire here
       - image: circleci/openjdk:8-jdk
       - image: cassandra
+      environment:
+        MAX_HEAP_SIZE: 4096m
+        HEAP_NEWSIZE: 1024m
+
       
       # Specify service dependencies here if necessary
       # CircleCI maintains a library of pre-built images
