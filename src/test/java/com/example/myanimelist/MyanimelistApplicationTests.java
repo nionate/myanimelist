@@ -9,8 +9,6 @@ import org.springframework.test.context.junit4.SpringRunner;
 @SpringBootTest
 public class MyanimelistApplicationTests {
 
-	@Test
-	public void contextLoads() {
-	}
+
 
 }
