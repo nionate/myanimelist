@@ -1,3 +1,7 @@
+server:
+  servlet:
+    context-path: /animelist
+
 spring:
   data:
     mongodb:

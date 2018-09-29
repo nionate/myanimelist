@@ -9,4 +9,5 @@ import java.util.UUID;
 @Repository
 public interface SerieRepository extends MongoRepository<Serie, UUID> {
 
+    public Serie findByName(String name);
 }
