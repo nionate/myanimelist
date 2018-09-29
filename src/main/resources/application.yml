@@ -8,3 +8,4 @@ spring:
       database: myanimelist # Database name.
       host: localhost # Mongo server host. Cannot be set with URI.
       port: 27017 # Mongo server port. Cannot be set with URI.
+      #uri: mongodb://alink:myanimelist12345@ds119343.mlab.com:19343/myanimelist

@@ -14,6 +14,9 @@ public class Serie {
     private String synopsis;
     private int episodes;
 
+    public Serie() {
+    }
+
     public Serie(UUID id, String name) {
         this.id = id;
         this.name = name;
