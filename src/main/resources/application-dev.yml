@@ -1,0 +1,12 @@
+server:
+  servlet:
+    context-path: /animelist
+
+spring:
+  profiles:
+    active: dev
+  data:
+    mongodb:
+      database: myanimelist # Database name.
+      host: localhost # Mongo server host. Cannot be set with URI.
+      port: 27017 # Mongo server port. Cannot be set with URI.

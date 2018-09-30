@@ -27,10 +27,13 @@ public class MyanimelistApplication implements CommandLineRunner{
 		Serie serie1 = new Serie(UUID.randomUUID(), "Naruto");
 		Serie serie2 = new Serie(UUID.randomUUID(), "Bleach");
 		Serie serie3 = new Serie(UUID.randomUUID(), "One Piece");
+		Serie serie4 = new Serie(UUID.randomUUID(), "Boku no Hero");
 
 		serieRepository.save(serie1);
 		serieRepository.save(serie2);
 		serieRepository.save(serie3);
+		serieRepository.save(serie4);
+
 
 		for(Serie serie : serieRepository.findAll()) {
 
